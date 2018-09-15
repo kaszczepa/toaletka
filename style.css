@@ -1,0 +1,417 @@
+body {
+    margin: 0;
+    padding: 0;
+    padding-top: 80px;
+    border: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    height: 100%;
+}
+
+#div2 {
+    background: #1a2d5a;
+    width: 100%;
+    line-height: 10px;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    background-color: initial;
+}
+
+.icon-bar {
+    background: white;
+}
+
+.navbar-toggle {
+    margin: 20px;
+}
+
+.navbar {
+    margin-bottom: 0;
+    background: #1a2d5a;
+}
+
+ul>li {
+    list-style: none;
+}
+
+.menu_foto {
+    height: 80px;
+    cursor: pointer;
+    padding: 8px;
+}
+
+#div2 ul {
+    float: right;
+    list-style-type: none;
+}
+
+#div2 ul li {
+    font-size: 14px;
+}
+
+#div2 ul li a {
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+}
+
+.background_img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.baner {
+    background-image: url("./assets/baner10.jpg");
+    height: 50vw;
+    
+    
+    
+}
+
+.img2 {
+    background-image: url("./assets/img2.jpg");
+    height: 50vw;
+}
+
+.travel_john {
+    background-image: url("./assets/images_travel_jo.jpg");
+    height: 133px;
+}
+
+.footer {
+    background-image: url("./assets/pylony.JPG");
+    height: 30vw;
+}
+
+.title {
+    font-size: 3vw;
+    padding-bottom: 40px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.green {
+    background-color: #BFD641;
+    padding: 3px;
+    font-size: 1.4vw;
+    color: white;
+}
+
+.motto {
+    color: #1a2d5a;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.6vw;
+    width: 40%;
+    text-align: center;
+    float: right;
+    margin-top: 10%;
+}
+
+.motto2 {
+    display: none;
+}
+
+.main_title {
+    font-size: 4vw;
+    font-weight: bold;
+    margin: 0 auto;
+    padding-top: 3%;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    background-image: linear-gradient(#1a2d5a, transparent);
+}
+
+.NapisKwadrat {
+    width: 70%;
+    padding: 15px;
+}
+
+.haslo {
+    padding: 20px;
+    background-color: white;
+    color: #1a2d5a;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.6vw;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.ToaletkaOpis {
+    padding-top: 90px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: 24px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.OpisPylonow {
+    padding: 20px;
+    font-size: 18px;
+}
+
+.ZawartoscToaletki {
+    color: #F2552C;
+    font-size: 30px;
+}
+
+.lista {
+    background-color: #1a2d5a;
+    color: white;
+    text-align: left;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.lista li {
+    font-weight: bold;
+    color: #BFD641;
+    text-align: left;
+    width: 176px;
+    margin-right: 44px;
+    float: left;
+    position: relative
+}
+
+.lista ol {
+    display: block;
+    padding: 0 0 0 26px;
+    list-style: none;
+    overflow: hidden;
+    counter-reset: numList;
+}
+
+.lista li::before {
+    counter-increment: numList;
+    content: counter(numList);
+    float: left;
+    position: absolute;
+    left: -26px;
+    font: bold 12px sans-serif;
+    text-align: center;
+    line-height: 18px;
+    width: 18px;
+    height: 18px;
+    background: cadetblue;
+    -moz-border-radius: 999px;
+    border-radius: 999px
+}
+
+.DoPrawej {
+    float: right;
+}
+
+.square {
+    padding: 30px 50px 30px 50px;
+    color: white;
+    background: black;
+    opacity: 0.8;
+    filter: alpha (opacity=80);
+    font-size: 1.6vw;
+}
+
+.top_square {
+    max-width: 55%;
+}
+
+.threeImages {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.threeImages .col-sm-4 {
+    margin-bottom: 30px;
+}
+.imagespadding{
+    padding-bottom:20px;
+}
+.images{
+    border-radius: 15px;
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    background: #1a2d5a;
+    color: white;
+}
+
+.footer-title {
+    margin-bottom: 10px;
+}
+
+footer>.container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+footer p {
+    font-size: 14px;
+    margin: 0;
+}
+
+.mobileHide {
+    display: none;
+}
+#logo{
+    max-width: 400px;
+    padding: 20px;
+}
+#logo:hover{
+    animation:shake 0.5s infinite; 
+
+}
+
+.schowaj{
+    display: none;
+}
+@keyframes shake{
+    0%{transform:translate(1px,1px) rotate(0deg);}
+    10%{transform:translate(-1px,-2px) rotate(-1deg);}
+    20%{transform:translate(-3px,0px) rotate(1deg);}
+    30%{transform:translate(3px,2px) rotate(0deg);}
+    40%{transform:translate(1px,-1px) rotate(1deg);}
+    50%{transform:translate(-1px,2px) rotate(-1deg);}
+    60%{transform:translate(-3px,1px) rotate(0deg);}
+    70%{transform:translate(3px,1px) rotate(-1deg);}
+    80%{transform:translate(-1px,-1px) rotate(1deg);}
+    90%{transform:translate(1px,2px) rotate(0deg);}
+    100%{transform:translate(1px,-2px) rotate(-1deg);}
+    
+}
+
+@media screen and (max-width: 1200px) {
+    .bag_content {
+        padding: 0 !important;
+    }
+    .NapisKwadrat {
+        width: 90%;
+        float: center;
+    }
+    .motto {
+        color: #1a2d5a;
+        font-size: 2.2vw;
+        width: 30%;
+        margin-right: 20px;
+        padding-right: 10px;
+    }
+    .ToaletkaOpis {
+        font-size: 2vw;
+        padding-top: 40px;
+    }
+    .haslo {
+        padding: 20px;
+        font-size: 3vw;
+    }
+}
+
+@media screen and (max-width :767px) {
+
+    .top_square {
+        padding-block-end: 10px;
+    }
+    .square {
+        padding-block-end: 10px;
+        color: white;
+        background: black;
+        opacity: 0.8;
+        filter: alpha (opacity=80);
+        font-size: 1.6vw;
+    }
+    .haslo {
+        padding: 20px;
+        font-size: 4vw;
+    }
+    .menu_element>li.hideOnMobile {
+        display: none;
+    }
+    #div2 ul {
+        float: none;
+    }
+    .nav {
+        background: #1a2d5a;
+    }
+    #div2 ul li a {
+        padding: 12px;
+    }
+    .responsiveimg {
+        max-width: 300px;
+    }
+    .DoPrawej {
+        float: left;
+    }
+    .motto {
+        display: none;
+    }
+    .motto2 {
+        display: block;
+        font-size: 3vw;
+        margin: 0 auto;
+        text-align: center;
+        padding: 20px;
+        width: 90%;
+    }
+    .mobileHide {
+        display: block;
+    }
+    .ToaletkaOpis {
+        font-size: 3vw;
+    }
+    .main_title {
+        font-size: 6vw;
+        padding-top: 3%;
+        text-align: center;
+        color: white;
+        font-family: sans-serif;
+        background-image: linear-gradient(#1a2d5a, transparent);
+    }
+}
+
+@media screen and (max-width :543px) {
+    .modal-body{
+        padding: 0px;
+    }
+    #logo{
+        max-width: 300px;
+        padding: 15px;
+    }
+    .ZawartoscToaletki {
+        font-size: 20px;
+    }
+    .lista {
+        padding-top: 20px;
+        font-size: 13px;
+    }
+    .haslo {
+        padding: 15px;
+        font-size: 6vw;
+    }
+    .ToaletkaOpis {
+        font-size: 4.5vw;
+    }
+    .motto2 {
+        display: block;
+        font-size: 13px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 20px;
+        width: 90%;
+    }
+    .main_title {
+        font-size: 6vw;
+        padding-top: 3%;
+        text-align: center;
+        color: white;
+        font-family: sans-serif;
+        background-image: linear-gradient(#1a2d5a, transparent);
+    }
+}
